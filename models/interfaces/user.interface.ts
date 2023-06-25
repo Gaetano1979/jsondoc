@@ -5,4 +5,6 @@ export interface IUser {
   lastname: string;
   age: number;
   adress: IAdress;
+
+  getCompleteName: () => string;
 }
