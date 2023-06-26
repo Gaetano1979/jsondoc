@@ -12,10 +12,10 @@ export class User implements IUser {
   }
 
   /**
-   * @description La funzione restituisce nome e cognome
+   * @description the function return name * lastname of user
    * dell'user
    */
-  getName() {
+  getFullName() {
     return `${this.name} * ${this.lastname}`;
   }
 
